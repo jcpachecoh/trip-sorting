@@ -1,5 +1,5 @@
 export class DealService {
-  public GetEvents(): Promise<any> {
+  static GetDeals(): Promise<any> {
     const url = `../api/response.json`;
     return fetch(url, {
       headers: {

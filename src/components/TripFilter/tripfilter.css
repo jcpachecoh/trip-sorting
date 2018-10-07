@@ -1,0 +1,45 @@
+.trip__filter {
+  border: 1px solid black;
+  top: 0;
+  bottom: 0;
+  padding: 20px 50px;
+  height: 100%;
+  max-height: 100%;
+  background-color: #f7f7f7;
+}
+
+.trip__filter .tripsorter__options label {
+  float: left;
+  margin: 4px;
+  padding: 5px 5px;
+  overflow: hidden;
+  width: 100px;
+}
+
+.trip__filter .tripsorter__options label span {
+  border: 1px solid #000;
+  display: block;
+  font-size: 16px;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+.trip__filter .tripsorter__options label input {
+  position: absolute;
+  top: -20px;
+}
+
+.trip__filter .tripsorter__options input:checked + span {
+  background-color: #404040;
+  color: #f7f7f7;
+}
+
+
+.trip__filter button {
+  font-size: 18px;
+  margin-left: 50px;
+}
+.trip__filter .error__message {
+  font-size: 16px;
+  color: #FF6347;
+}

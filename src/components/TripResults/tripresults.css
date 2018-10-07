@@ -1,0 +1,40 @@
+.tripsorter__results {
+  width: 90%;
+  height: 80vh;
+  overflow: auto;
+}
+
+.tripsorter__results__item {
+  color: #fff;
+  background-color: #5fcf80;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  width: 90%;
+}
+
+.tripsorter__results__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tripsorter__results__info > span {
+  color: #fff;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  width: 110px;
+}
+
+.tripsorter__results__info_secondary {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.tripsorter__results__info_secondary > span {
+  color: #fff;
+  font-size: 16px;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
